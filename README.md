@@ -1,114 +1,111 @@
-# ✋ Hand Gesture Controlled Jumping (Space Key Simulation)
+# 🦖 Hand Gesture Controlled Dino Game
 
-This project allows you to **control the space bar (jump)** in any game (like Chrome Dino) using your **hand gestures detected via webcam**. When you close your fist, it triggers the **space key press**, enabling touchless interaction.
-
----
-
-## 🎯 **Features**
-
-✅ Uses **OpenCV** for video capture and frame processing  
-✅ Utilises **cvzone HandTrackingModule** for robust hand detection  
-✅ Detects finger positions and counts using **mediapipe-based tracking**  
-✅ Triggers **space key press** when the fist is closed (all fingers down)  
-✅ Real-time frame overlay with gesture status (Jumping / Not Jumping)  
-✅ UI overlay for enhanced user feedback  
-✅ Works seamlessly with **Windows games and applications**
+Control your **Chrome Dino game** (or any jump-based game) using **hand gestures via webcam**!  
+When you close your fist, it **presses the Space key** to make the Dino jump, enabling touchless gameplay.
 
 ---
 
-## 🚀 **Setup Instructions**
+## ✨ **Features**
 
-1. Clone this repository:
+✅ Real-time **hand tracking** using cvzone and mediapipe  
+✅ Detects **finger states** to identify gestures  
+✅ Closes fist ➔ **Triggers Space key press (jump)**  
+✅ Displays live **gesture status and UI overlay**  
+✅ Works seamlessly with **Chrome Dino game** for hands-free fun  
+✅ Built with **Python, OpenCV, cvzone, ctypes**
+
+---
+
+## 🚀 **Getting Started**
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hand-gesture-space-control.git
-   cd hand-gesture-space-control
-Install dependencies:
+   git clone https://github.com/asishadimulapu/Hand-Gesture-Dino.git
+   cd Hand-Gesture-Dino
+Install dependencies
 
 bash
 Copy
 Edit
 pip install opencv-python cvzone mediapipe
-Ensure you have the following files in the same directory:
-
-main.py (code above)
-
-keys.py (contains PressKey, ReleaseKey, and space_pressed)
-
-Run the program:
+Run the project
 
 bash
 Copy
 Edit
 python main.py
-🖥️ How It Works
-Uses your webcam feed to detect your hand.
+🎮 How It Works
+Uses webcam feed to detect your hand.
 
-Checks finger states:
+Checks which fingers are up or down.
 
-If all fingers are down (closed fist) ➔ Presses Space key.
+If all fingers are down (fist closed) ➔ Sends a Space key press.
 
-Otherwise ➔ Releases Space key.
+Releases Space key when fingers are open.
 
-🎥 Demo
-(Attach a short GIF or video here demonstrating your hand controlling jump in Dino game)
-
-📂 File Structure
-arduino
+📂 Project Structure
+bash
 Copy
 Edit
-main.py          # Runs webcam, detects gesture, controls key press
-keys.py          # Contains ctypes definitions to press/release keys
+main.py     # Runs the webcam, detects gestures, controls key press
+keys.py     # Contains PressKey, ReleaseKey, and virtual key code definitions
 README.md
-🤝 Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss your proposed change.
+🎥 Demo
+(Add a GIF or video here showing your hand controlling the Dino jump)
+
+🙋 Author
+Asish Adimulapu
+
+3rd year B.Tech AIML, Anurag University
+
+LinkedIn
+
+GitHub
 
 📜 License
 This project is licensed under the MIT License.
 
-🙋 Author
-Your Name
-LinkedIn
-GitHub
+⭐ If you found this useful, please star the repo and share!
 
-⭐ If you like this project, don't forget to star it!
 markdown
 Copy
 Edit
 
 ---
 
-### 🔗 **LinkedIn Post Features**
+### 🔗 **LinkedIn Post Draft**
 
-Here is a **LinkedIn post draft** to showcase your project professionally:
+Here is your **final LinkedIn post caption** with the updated link:
 
 ---
 
-🚀 **Just completed an exciting project!**
+🎯 **New Project Alert!**
 
-I developed a **Hand Gesture Controlled Jumping System** using **Python, OpenCV, and cvzone**. 🖐️💻
+I just built a **Hand Gesture Controlled Dino Game** using **Python, OpenCV, and cvzone**. 🖐️🦖
 
-🔑 **Key Features:**
-- Controls the **space key using hand gestures** via webcam.
-- Detects **fist closure to trigger jump** in games like Chrome Dino.
-- Real-time **finger detection and status UI overlay**.
-- Uses **mediapipe-based tracking** for accurate gesture recognition.
-- Integrates with any Windows application or game requiring space bar input.
+💡 **What it does:**
+- Uses your **webcam to detect hand gestures**.
+- Closes fist ➔ **Makes the Dino jump** by pressing the Space key automatically.
+- Fully hands-free and built with **mediapipe-based accurate tracking**.
 
-💡 **Tech Stack:**
-Python, OpenCV, cvzone, mediapipe, ctypes (for virtual key press).
+⚙️ **Tech Stack:**
+Python, OpenCV, cvzone, mediapipe, ctypes
 
-🎯 **Use Cases:**
-- Gesture-based gaming
-- Touchless human-computer interaction prototypes
-- Accessibility tools for users with limited keyboard usage
+🎮 **Use Cases:**
+- Gesture-based gaming  
+- Touchless human-computer interaction  
+- Accessibility projects for controlling games without keyboard input
 
-🔗 **Check out my GitHub repository:**
-[github.com/](#)
+🔗 **GitHub Repository:**  
+[github.com/asishadimulapu/Hand-Gesture-Dino](https://github.com/asishadimulapu/Hand-Gesture-Dino)
+
+👤 **Connect with me:**  
+[LinkedIn](https://www.linkedin.com/in/asish-adimulapu)
 
 ✨ **Next Goals:**
-- Extend to support swipe gestures for left/right key presses
-- Integrate with full body tracking for immersive gaming experiences
+- Add swipe gestures for left/right controls  
+- Integrate with full body pose detection for immersive games
 
-🙌 **Feedback and suggestions are welcome!**
+🙌 **Would love your feedback and suggestions!**
 
-#OpenCV #Python #ComputerVision #GestureRecognition #cvzone #Projects #AI #ML #Innovation #Accessibility #Gaming
+#Python #OpenCV #GestureRecognition #ComputerVision #AIProjects #Gaming #Innovation #Accessibility #cvzone #DeepLearning #MachineLearning
