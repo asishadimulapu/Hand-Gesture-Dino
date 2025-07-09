@@ -73,12 +73,6 @@ Edit
 
 ---
 
-### 🔗 **LinkedIn Post Draft**
-
-Here is your **final LinkedIn post caption** with the updated link:
-
----
-
 🎯 **New Project Alert!**
 
 I just built a **Hand Gesture Controlled Dino Game** using **Python, OpenCV, and cvzone**. 🖐️🦖
