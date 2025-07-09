@@ -56,7 +56,7 @@ README.md
 🙋 Author
 Asish Adimulapu
 
-3rd year B.Tech AIML, Anurag University
+4th year B.Tech AIML, Anurag University
 
 LinkedIn
 
